@@ -1,0 +1,6 @@
+
+.item-grid-overlay {
+    grid-area: overlaygrid;
+    /* place the overlay element in the same grid area as the content element */
+    z-index: 30;
+}

@@ -1,0 +1,11 @@
+.grid-container {
+    width: 250px;
+    display: grid;
+    grid-template-areas: "overlaydemo";
+}
+
+.openseadragon-container {
+    grid-area: overlaygrid;
+    /* place the overlay element in the same grid area as the content element */
+    z-index: 30;
+}
